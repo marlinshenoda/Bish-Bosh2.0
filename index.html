@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bish-Bosh2.0</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+    <header> 
+        <h1>Bish-Bosh2.0</h1>
+    </header>
+       
+    <div>
+    <form class="w3-container w3-card-4 w3-margin-top" >
+        <h2 class="w3-text-blue">Bish Bosh</h2>
+        <p>Bish-Bosh listar alla tal mellan 1 och 100. Men om talet är jämnt delbart med t.ex 3 visas 'Bish' istället
+            ,om talet är jämnt delbart med t.ex 4 visas 'Bosh' och om talet är jämnt delbart med både 3 och 4 skrivs 'Bish-Bosh'
+            istället.
+            Du kan ändra värdena själv för antal tal som ska skrivas ut och vilka tal som ska vara jämnt delbara för att
+            skriva ut 'Bish', 'Bosh'
+            eller 'Bish-Bosh'.</p>
+        <p>      
+        <label class="w3-text-blue "><b>loop Storlek</b></label>
+        <input class="w3-input w3-border" id="loop-size" name="first" type="text"></p>
+        <p>      
+        <label class="w3-text-blue"><b>Bish Nummer</b></label>
+        <input class="w3-input w3-border" id="bish-num" name="last" type="text"></p>
+        <p>      
+            
+         <label class="w3-text-blue"><b>Bosh Nummer</b></label>
+         <input class="w3-input w3-border" id="bosh-num" name="last" type="text"></p>
+    <p>      
+        <button onclick="calculate(); return false;" class="w3-btn w3-blue">Beräkning</button></p>
+       
+
+        <div  class="w3-container w3-blue w3-margin">
+            <h6 id="textMessage" style="text-shadow:1px 1px 0 #444"></h6>
+        </div>
+       
+      
+      </form>
+    </div>
+
+
+  
+   
+
+    <script src="bishboshh.js"></script>
+  <footer> 
+        @copy 2022 Bish-Bosh2.0 ||  Marlin Shenoda
+    </footer>
+</body>
+</html>
